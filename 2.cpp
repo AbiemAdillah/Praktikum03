@@ -21,7 +21,19 @@ int main (){
 	z=x*y;
 	cout<<"Luas Persegi Panjang\t    = "<<z<<"  cm";	
 	}
-	
+	else if (r=='S'||r=='s'){
+	cout<<"Menghitung Luas Segitiga"<<endl;
+	cout<<"\n";
+	cout<<"-------------------------------"<<endl;
+	cout<<"Masukkan Nilai Alas Segitiga\t   = ";cin>>x;
+	cout<<"Masukkan Nilai Tinggi Segitiga\t   = ";cin>>y;
+	z=0.5*x*y;
+	cout<<"Luas segitiga\t                   = "<<z<<"  cm";	
+	}
+	else{
+		cout<<"Pilihan Tidak ada";
+	}
+	return 0;
 	
 	
 
