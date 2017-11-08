@@ -13,7 +13,7 @@ int main(){
 		if (jk>40){
 		cout<<"Gaji Pokok \t = Rp 2000.000"<<endl;
 		cout<<"Jam Kerja Standart \t = 40 Jam"<<endl;
-		lb=jk-40
+		lb=jk-40;
 		cout<<"Lembur\t\t\t = "<<lb<<" Jam"<<endl;
 			jl=lb*1.5;
 			jt=40+jl;
@@ -24,7 +24,7 @@ int main(){
 			cout<<"Gaji Bersih\t\t = "<<"Rp "<<gb;
 	}
 	else if (jk<=40){
-		cout<<"Gaji Pokok\t = Rp 2.000.000"<<endl;
+		cout<<"Gaji Pokok\t = Rp 2000.000"<<endl;
 		cout<<"Jam Kerja Standart \t = 40 Jam"<<endl;
 			lb=0;
 		cout<<"Lembur\t\t = "<<lb<<" Jam"<<endl;
