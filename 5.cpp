@@ -12,5 +12,6 @@ int main(){
 	if(bb<(tb/2.5)){
 		cout<<"Anda Termasuk UNDERWEIGHT";
 	}
-
+	else if((tb/2.5)<=bb<=(tb/2.3)){
+		cout<<"Anda Termasuk NORMAL";
 }
