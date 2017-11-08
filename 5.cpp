@@ -8,5 +8,9 @@ int main(){
 	cout<<"----------------------------"<<endl;
 	cout<<"Masukkan Tiggi Badan = ";cin>>tb;
 	cout<<"Masukkan Berat Badan = ";cin>>bb;
+	
+	if(bb<(tb/2.5)){
+		cout<<"Anda Termasuk UNDERWEIGHT";
+	}
 
 }
